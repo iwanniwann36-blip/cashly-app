@@ -1,12 +1,16 @@
 {
-  "expo": {
-    "name": "CASHLY",
-    "slug": "cashly",
-    "scheme": "cashly",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "userInterfaceStyle": "light",
-    "ios": { "supportsTablet": true, "bundleIdentifier": "com.yourcompany.cashly" },
-    "android": { "package": "com.yourcompany.cashly" }
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "node": "22.23.3"
+    },
+    "preview": {
+      "distribution": "internal",
+      "node": "22.23.3"
+    },
+    "production": {
+      "node": "22.23.3"
+    }
   }
 }
